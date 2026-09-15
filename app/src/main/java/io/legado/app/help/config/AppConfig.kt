@@ -410,6 +410,12 @@ object AppConfig : SharedPreferences.OnSharedPreferenceChangeListener {
             appCtx.putPrefBoolean(PreferKey.exportNoChapterName, value)
         }
 
+    var exportEpubPlainChapterName: Boolean
+        get() = appCtx.getPrefBoolean(PreferKey.exportEpubPlainChapterName)
+        set(value) {
+            appCtx.putPrefBoolean(PreferKey.exportEpubPlainChapterName, value)
+        }
+
     // 是否启用自定义导出 default->false
     var enableCustomExport: Boolean
         get() = appCtx.getPrefBoolean(PreferKey.enableCustomExport, false)
@@ -569,8 +575,6 @@ object AppConfig : SharedPreferences.OnSharedPreferenceChangeListener {
     val autoCheckNewBackup get() = appCtx.getPrefBoolean(PreferKey.autoCheckNewBackup, true)
 
     val defaultHomePage get() = appCtx.getPrefString(PreferKey.defaultHomePage, "bookshelf")
-
-    val updateToVariant get() = appCtx.getPrefString(PreferKey.updateToVariant, "default_version")
 
     val streamReadAloudAudio get() = appCtx.getPrefBoolean(PreferKey.streamReadAloudAudio, false)
 
@@ -821,6 +825,7 @@ object AppConfig : SharedPreferences.OnSharedPreferenceChangeListener {
             appCtx.putPrefBoolean(PreferKey.welcomeShowIconDark, value)
         }
 
-    val autoUpdateVariant get() = appCtx.getPrefBoolean("autoUpdateVariant", true)
+    // Keep the legacy preference key so existing users retain their auto-update choice.
+    val autoCheckUpdate get() = appCtx.getPrefBoolean("autoUpdateVariant", true)
 }
 

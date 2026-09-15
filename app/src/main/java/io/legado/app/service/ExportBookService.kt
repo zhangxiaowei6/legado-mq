@@ -378,13 +378,18 @@ class ExportBookService : BaseService() {
 
     private fun setAssets(doc: FileDoc, book: Book, epubBook: EpubBook): String {
         val customPath = doc.find("Asset")
-        val contentModel = if (customPath == null) {//使用内置模板
-            setAssets(book, epubBook)
+        return if (customPath == null) {//使用内置模板
+            var contentModel = setAssets(book, epubBook)
+            if (AppConfig.exportEpubPlainChapterName) {
+                contentModel = contentModel.replace(
+                    "<h2 class=\"head\">{title}</h2>",
+                    "<div class=\"plain-chapter-title\">{title}</div>"
+                )
+            }
+            contentModel
         } else {//外部模板
             setAssetsExternal(customPath, book, epubBook)
         }
-
-        return contentModel
     }
 
     private fun setAssetsExternal(doc: FileDoc, book: Book, epubBook: EpubBook): String {
@@ -567,7 +572,8 @@ class ExportBookService : BaseService() {
                 title.replace("\uD83D\uDD12", ""),
                 content1,
                 contentModel,
-                "Text/chapter_${index}.html"
+                "Text/chapter_${index}.html",
+                AppConfig.exportEpubPlainChapterName
             )
             ExportChapter(title, chapterResource, resources, chapter)
         }.collectIndexed { index, exportChapter ->
@@ -765,7 +771,8 @@ class ExportBookService : BaseService() {
                             title.replace("\uD83D\uDD12", ""),
                             content1,
                             contentModel,
-                            "Text/chapter_${index}.html"
+                            "Text/chapter_${index}.html",
+                            AppConfig.exportEpubPlainChapterName
                         )
                     )
                 }

@@ -2,7 +2,7 @@
   <div :class="{ 'index-wrapper': true, night: isNight, day: !isNight }">
     <div class="navigation-wrapper">
       <div class="navigation-title-wrapper">
-        <div class="navigation-title">阅读</div>
+        <div class="navigation-title">墨栖阅读</div>
         <div class="navigation-sub-title">清风不识字，何故乱翻书</div>
       </div>
       <div class="search-wrapper">
@@ -59,7 +59,7 @@
       </div>
       <div class="bottom-icons">
         <a
-          href="https://github.com/gedoor/legado_web_bookshelf"
+          href="https://github.com/zhangxiaowei6/legado-mq"
           target="_blank"
         >
           <div class="bottom-icon">
@@ -103,7 +103,7 @@ const applyReadConfig = (config?: webReadConfig) => {
   try {
     if (config !== undefined) store.setConfig(config)
   } catch {
-    ElMessage.info('阅读界面配置解析错误')
+    ElMessage.info('墨栖阅读界面配置解析错误')
   }
 }
 

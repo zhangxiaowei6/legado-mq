@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">墨栖阅读 / Moqi Reader</title>
+  <desc id="desc">Moqi Reader brand banner with an open book and leaf symbol.</desc>
+  <rect width="1600" height="480" rx="48" fill="#F7F3E8"/>
+  <g transform="translate(80 40) scale(.39)">
+    <path d="M208 370C322 330 426 344 512 418V760C426 696 326 688 208 728Z" fill="#17243B"/>
+    <path d="M512 418C598 344 702 330 816 370V728C698 688 598 696 512 760Z" fill="#17243B"/>
+    <path d="M512 602C532 438 632 312 788 276C780 432 676 568 512 602Z" fill="#2FAF8F"/>
+    <path d="M548 570C606 506 670 424 748 332C674 450 612 534 548 602Z" fill="#F7F3E8"/>
+  </g>
+  <text x="550" y="215" fill="#17243B" font-family="sans-serif" font-size="112" font-weight="700">墨栖阅读</text>
+  <text x="555" y="310" fill="#2FAF8F" font-family="sans-serif" font-size="56" letter-spacing="4">MOQI READER</text>
+</svg>

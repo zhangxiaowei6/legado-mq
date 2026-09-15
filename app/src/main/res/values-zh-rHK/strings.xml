@@ -1,7 +1,7 @@
 <resources>
     <!--App-->
-    <string name="app_name">閲讀</string>
-    <string name="app_name_a">閲讀·A</string>
+    <string name="app_name">墨棲閱讀</string>
+    <string name="app_name_a">墨棲閱讀</string>
     <string name="receiving_shared_label">閲讀·搜尋</string>
     <string name="tip_perm_request_storage">閲讀需要訪問存儲卡權限，請前往「設定」—「應用程式權限」—開啟所需要的權限</string>
 
@@ -93,7 +93,7 @@
         \u3000\u3000這是一款使用 Kotlin 全新開發的開源的閲讀應用程式，歡迎你的加入。
     </string>
     <string name="app_share_description">
-        閲讀3.0下載地址：\nhttps://github.com/gedoor/legado/releases
+        墨棲閱讀下載地址：\nhttps://github.com/zhangxiaowei6/legado-mq/releases
     </string>
     <string name="version_name">Version %s</string>
     <string name="pt_background_verification">後臺校驗書源</string>
@@ -689,7 +689,6 @@
     <string name="follow_official_account">關注公眾號</string>
     <string name="wechat">WeChat</string>
     <string name="thanks">你的支持是我更新的動力</string>
-    <string name="about_official_account">公眾號[开源阅读]</string>
     <string name="source_auto_changing">正在自動換源</string>
     <string name="click_to_apply">點擊加入</string>
     <string name="middle">中</string>
@@ -720,7 +719,6 @@
     <string name="text_font_weight_converter">文章字體轉換</string>
     <string name="select_backup_path">請選擇備份路徑</string>
     <string name="other">其它</string>
-    <string name="official_account">legado-top</string>
     <string name="backup_summary">本地和WebDav壹起備份</string>
     <string name="restore_summary">優先從WebDav恢復,長按從本地恢復</string>
     <string name="import_old_summary">選擇舊版備份文件夾</string>
@@ -732,7 +730,6 @@
     <string name="starting_download">正在啟動下載</string>
     <string name="already_in_download">該書已在下載列表</string>
     <string name="click_to_open">點擊打開</string>
-    <string name="follow_public_account_summary">關注[legado-top]點擊廣告支持我</string>
     <string name="weChat_appreciation_code">微信讚賞碼</string>
     <string name="alipay">支付寶</string>
     <string name="alipay_red_envelope_search_code">支付寶紅包搜索碼</string>
@@ -765,7 +762,6 @@
     <string name="language">語言</string>
     <string name="import_rss_source">匯入訂閱源</string>
     <string name="donate_summary">您嘅支援喺我更新嘅動力</string>
-    <string name="about_summary">公眾號[开源阅读软件]</string>
     <string name="read_record">閲讀記錄</string>
     <string name="del_read_record">刪除閲讀記錄</string>
     <string name="read_record_summary">閱讀時間記錄</string>
@@ -1168,12 +1164,6 @@
     <string name="start_from">起始日期</string>
     <string name="daily_chapters">日更章數</string>
     <string name="start_chapter">開始篇章</string>
-    <string name="update_to_variant_title">检查更新查找版本</string>
-    <string name="update_to_variant_summary">检查更新时查找其他签名版本</string>
-    <string name="default_version">当前</string>
-    <string name="official_version">正式版</string>
-    <string name="beta_release_version">测试版</string>
-    <string name="beta_releaseA_version">共存版</string>
     <string name="stream_read_aloud_audio">流式播放音频</string>
     <string name="stream_read_aloud_audio_summary">即边下边播，网络不好时播放会断断续续，仅TTS源有效</string>
     <string name="pause_read_aloud_while_phone_calls_title">来电期间暂停朗读</string>

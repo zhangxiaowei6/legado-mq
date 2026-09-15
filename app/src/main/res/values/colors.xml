@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="launcher_background">#FF1A2F5A</color>
+    <color name="launcher_background">#F7F3E8</color>
+    <color name="moqi_icon_bg_1">#E6F3EE</color>
+    <color name="moqi_icon_bg_2">#E9EDF2</color>
+    <color name="moqi_icon_bg_3">#FFF8E9</color>
+    <color name="moqi_icon_bg_4">#EAF4F1</color>
+    <color name="moqi_icon_bg_5">#F2EEE8</color>
+    <color name="moqi_icon_bg_6">#E8F0F2</color>
+    <color name="moqi_icon_bg_7">#F0ECF4</color>
     <color name="primary">@color/md_light_blue_600</color>
     <color name="primaryDark">@color/md_light_blue_700</color>
     <color name="accent">@color/md_pink_800</color>

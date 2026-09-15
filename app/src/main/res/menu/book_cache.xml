@@ -51,6 +51,12 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/menu_export_epub_plain_chapter_name"
+        android:checkable="true"
+        android:title="@string/export_epub_plain_chapter_name"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/menu_export_pics_file"
         android:checkable="true"
         android:title="@string/export_pics_file"

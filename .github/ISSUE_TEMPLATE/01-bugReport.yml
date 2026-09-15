@@ -9,7 +9,7 @@ body:
       options:
         - label: 搜索现有issues，不存在相似或相关的issue / No similar or related issues
           required: true
-        - label: 最新[测试版](https://github.com/gedoor/legado/releases/beta)依然存在此问题 / Latest beta app does not work
+        - label: 最新[墨栖阅读正式版](https://github.com/zhangxiaowei6/legado-mq/releases/latest)依然存在此问题 / The issue occurs in the latest Moqi Reader release
           required: true
         - label: 此问题和Xposed、Lsposed、Magisk、手机主题、浏览器插件、无障碍服务等无关 / Make sure your machine is not touched by hook frameworks, plugins, accessibility etc
           required: true
@@ -18,8 +18,7 @@ body:
     attributes:
       label: 问题描述 / Describe Bugs
       description: |
-        非改版新增功能。请验证官方版也存在问题后去[官方区](https://github.com/gedoor/legado/issues)反馈，
-        本改版相关反馈前请确保已更新到最新版。
+        请说明问题是否为墨栖阅读独有。仅在本仓库反馈墨栖阅读问题；上游项目问题请先说明上游复现结果和对应版本。
     validations:
       required: true
   - type: textarea
@@ -44,14 +43,13 @@ body:
     attributes:
       label: 日志提交 / Relevant log output
       description: |
-        阅读日志位于我的-关于-崩溃日志、保存日志、书架-右上角-日志，或者自行使用log工具抓取日志
-        如果崩溃日志中包含`java.lang.OutOfMemoryError`，请安装最新测试版，在其他设置里打开记录堆转储，复现崩溃后去关于那里点保存日志，然后去备份目录里将heapDump文件夹里的文件打包压缩一下上传上来
+        墨栖阅读日志位于“我的 → 关于 → 崩溃日志/保存日志”或书架右上角日志。上传前请删除 Cookie、请求头、账号、文件路径等隐私信息。
       placeholder: "请用```将日志内容包裹"
 
   - type: input
     attributes:
-      label: 阅读版本 / Legado version
-      placeholder: "3.22.110823"
+      label: 墨栖阅读版本 / Moqi Reader version
+      placeholder: "1.0.0"
     validations:
       required: true
   - type: input

@@ -232,9 +232,9 @@ class MainActivity : VMBaseActivity<ActivityMainBinding, MainViewModel>(),
      */
     private suspend fun upVersion() = suspendCancellableCoroutine sc@{ block ->
         if (LocalConfig.versionCode == appInfo.versionCode) {
-            if (AppConfig.autoUpdateVariant) {
+            if (AppConfig.autoCheckUpdate) {
                 if (LocalConfig.lastCheckUpdate + 24.hours.inWholeMilliseconds < System.currentTimeMillis()) {
-                    AppUpdate.giteeUpdate.check(lifecycleScope)
+                    AppUpdate.gitHubUpdate.check(lifecycleScope)
                         .onSuccess {
                             showDialogFragment(
                                 UpdateDialog(it)

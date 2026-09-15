@@ -35,6 +35,10 @@ public class ResourceUtil {
      * @return 返回Resource
      */
     public static Resource createChapterResource(String title, String txt, String model, String href) {
+        return createChapterResource(title, txt, model, href, false);
+    }
+
+    public static Resource createChapterResource(String title, String txt, String model, String href, boolean plainTitle) {
         //String[] title_list = title.split("\\s+", 2);
         //String title_part1 = title_list[0];
         //String title_part2 = "";
@@ -42,9 +46,16 @@ public class ResourceUtil {
         //    title_part2 = title_list[1];
         //}
         String ori_title = title;
-        title = title.replaceFirst("\\s+", "</span><br />");
-        if (title.contains("</span>")) {
-            title = "<span class=\"chapter-sequence-number\">" + title;
+        if (plainTitle) {
+            title = title.replaceFirst("\\s+", "</span><br /><span class=\"plain-chapter-title-name\">");
+            if (title.contains("</span>")) {
+                title = "<span class=\"plain-chapter-title-index\">" + title + "</span>";
+            }
+        } else {
+            title = title.replaceFirst("\\s+", "</span><br />");
+            if (title.contains("</span>")) {
+                title = "<span class=\"chapter-sequence-number\">" + title;
+            }
         }
         String html = model.replace("{title}", title)
                 .replace("{ori_title}", ori_title)

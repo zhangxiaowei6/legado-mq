@@ -1,4 +1,6 @@
-# 阅读[API](/app/src/main/java/io/legado/app/api/controller)
+# 墨栖阅读 [API](/app/src/main/java/io/legado/app/api/controller)
+
+> 墨栖阅读是 Legado 的第三方修改版。本次独立仓库重整不改变既有 Web API、ContentProvider API 或数据结构。
 
 ## 对于[Web](/app/src/main/java/io/legado/app/web/)的配置
 
@@ -9,7 +11,7 @@
 ### Web
 
 以下说明假设您的操作在本机进行，且开放端口为1234。  
-如果您要从远程计算机访问[阅读]()，请将`127.0.0.1`替换成手机IP。
+如果您要从远程计算机访问墨栖阅读，请将 `127.0.0.1` 替换成手机 IP。
 
 #### 插入单个书源
 

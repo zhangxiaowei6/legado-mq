@@ -217,6 +217,26 @@ h2.head span {
     color: #fff;
 }
 
+div.plain-chapter-title {
+    font-family: "DK-SONGTI","st","宋体","zw",sans-serif;
+    text-align: left;
+    text-indent: 0em;
+    duokan-text-indent: 0em;
+    font-weight: normal;
+    color: #000;
+    margin: 1em 0 5em 0;
+    line-height: 160%;
+}
+
+div.plain-chapter-title span.plain-chapter-title-index {
+    font-size: 1em;
+}
+
+div.plain-chapter-title span.plain-chapter-title-name {
+    font-size: 1.35em;
+    line-height: 180%;
+}
+
 
 div.logo {
     margin: -2em 0% 0 0;

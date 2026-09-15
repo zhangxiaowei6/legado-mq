@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Moqi Reader icon</title>
+  <desc id="desc">An open book joined with a leaf through warm ivory negative space.</desc>
+  <rect x="96" y="96" width="832" height="832" rx="208" fill="#F7F3E8"/>
+  <path d="M208 370C322 330 426 344 512 418V760C426 696 326 688 208 728Z" fill="#17243B"/>
+  <path d="M512 418C598 344 702 330 816 370V728C698 688 598 696 512 760Z" fill="#17243B"/>
+  <path d="M512 602C532 438 632 312 788 276C780 432 676 568 512 602Z" fill="#2FAF8F"/>
+  <path d="M548 570C606 506 670 424 748 332C674 450 612 534 548 602Z" fill="#F7F3E8"/>
+</svg>

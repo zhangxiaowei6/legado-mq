@@ -1,5 +1,5 @@
 {
-  "name": "legado",
+  "name": "legado-mq",
   "version": "1.0.0",
   "devDependencies": {
     "cz-conventional-changelog": "^3.1.0"
@@ -9,20 +9,20 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "description": "[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)",
+  "description": "Moqi Reader (墨栖阅读), an independently maintained third-party Legado distribution",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gedoor/legado.git"
+    "url": "git+https://github.com/zhangxiaowei6/legado-mq.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "zhangxiaowei6 and upstream contributors",
+  "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/gedoor/legado/issues"
+    "url": "https://github.com/zhangxiaowei6/legado-mq/issues"
   },
-  "homepage": "https://github.com/gedoor/legado#readme"
+  "homepage": "https://github.com/zhangxiaowei6/legado-mq#readme"
 }

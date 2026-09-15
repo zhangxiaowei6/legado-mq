@@ -1,10 +1,10 @@
 <resources>
     <!--App-->
-    <string name="app_name">阅读</string>
-    <string name="app_name_a">阅读·A</string>
-    <string name="app_name_s">阅读Plus</string>
-    <string name="receiving_shared_label">阅读·搜索</string>
-    <string name="tip_perm_request_storage">阅读需要访问存储卡权限，请前往“设置”—“应用权限”，打开所需权限</string>
+    <string name="app_name">墨栖阅读</string>
+    <string name="app_name_a">墨栖阅读</string>
+    <string name="app_name_s">墨栖阅读</string>
+    <string name="receiving_shared_label">墨栖阅读·搜索</string>
+    <string name="tip_perm_request_storage">墨栖阅读需要访问存储空间以查找和阅读书籍，请前往应用设置授予权限</string>
 
     <!--Other-->
     <string name="menu_backup">Home</string>
@@ -102,7 +102,7 @@
         \u3000\u3000这是一款使用 Kotlin 全新开发的开源的阅读软件，欢迎您的加入。
     </string>
     <string name="app_share_description">
-        阅读 3.0 下载地址：\nhttps://github.com/gedoor/legado/releases
+        墨栖阅读下载地址：\nhttps://github.com/zhangxiaowei6/legado-mq/releases
     </string>
     <string name="version_name">版本 %s</string>
     <string name="pt_background_verification">后台校验书源</string>
@@ -703,11 +703,9 @@
     <string name="contact">联系我们</string>
     <string name="license">开源许可</string>
     <string name="other">其它</string>
-    <string name="official_account">开源阅读</string>
     <string name="follow_official_account">关注公众号</string>
     <string name="wechat">微信</string>
     <string name="thanks">您的支持是我更新的动力</string>
-    <string name="about_official_account">公众号【开源阅读】</string>
     <string name="source_auto_changing">正在自动换源</string>
     <string name="click_to_apply">点击加入</string>
     <string name="middle">中</string>
@@ -747,7 +745,6 @@
     <string name="starting_download">正在启动下载</string>
     <string name="already_in_download">该书已在下载列表</string>
     <string name="click_to_open">点击打开</string>
-    <string name="follow_public_account_summary">关注【开源阅读】点击广告支持我</string>
     <string name="weChat_appreciation_code">微信赞赏码</string>
     <string name="alipay">支付宝</string>
     <string name="alipay_red_envelope_search_code">支付宝红包搜索码</string>
@@ -778,7 +775,6 @@
     <string name="language">语言</string>
     <string name="import_rss_source">导入订阅源</string>
     <string name="donate_summary">您的支持是我更新的动力</string>
-    <string name="about_summary">公众号【开源阅读软件】</string>
     <string name="read_record">阅读记录</string>
     <string name="del_read_record">删除阅读记录</string>
     <string name="read_record_summary">阅读时间记录</string>
@@ -845,6 +841,7 @@
     <string name="export_folder">导出文件夹</string>
     <string name="export_charset">导出编码</string>
     <string name="export_no_chapter_name">TXT 不导出章节名</string>
+    <string name="export_epub_plain_chapter_name">EPUB 导出无章节标题样式</string>
     <string name="export_to_web_dav">导出到 WebDav</string>
     <string name="reverse_content">反转内容</string>
     <string name="debug">调试</string>
@@ -1179,12 +1176,6 @@
     <string name="start_from">开始日期</string>
     <string name="daily_chapters">日更章数</string>
     <string name="start_chapter">起始章节</string>
-    <string name="update_to_variant_title">检查更新查找版本</string>
-    <string name="update_to_variant_summary">切换正式版/测试版</string>
-    <string name="default_version">当前</string>
-    <string name="official_version">正式版</string>
-    <string name="beta_release_version">测试版</string>
-    <string name="beta_releaseA_version">共存版</string>
     <string name="stream_read_aloud_audio">流式播放音频</string>
     <string name="stream_read_aloud_audio_summary">即边下边播，网络不好时播放会断断续续，仅TTS源有效</string>
     <string name="pause_read_aloud_while_phone_calls_title">来电期间暂停朗读</string>

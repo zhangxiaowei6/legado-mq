@@ -4,8 +4,32 @@
 
     <io.legado.app.lib.prefs.Preference
         android:key="contributors"
-        android:summary="@string/contributors_summary_sigma"
+        android:summary="@string/moqi_contributors_summary"
         android:title="@string/contributors"
+        app:iconSpaceReserved="false" />
+
+    <io.legado.app.lib.prefs.Preference
+        android:key="maintainer"
+        android:summary="@string/current_maintainer_summary"
+        android:title="@string/current_maintainer"
+        app:iconSpaceReserved="false" />
+
+    <io.legado.app.lib.prefs.Preference
+        android:key="source_code"
+        android:summary="@string/source_code_summary"
+        android:title="@string/source_code"
+        app:iconSpaceReserved="false" />
+
+    <io.legado.app.lib.prefs.Preference
+        android:key="direct_baseline"
+        android:summary="@string/direct_baseline_summary"
+        android:title="@string/direct_baseline"
+        app:iconSpaceReserved="false" />
+
+    <io.legado.app.lib.prefs.Preference
+        android:key="original_upstream"
+        android:summary="@string/original_upstream_summary"
+        android:title="@string/original_upstream"
         app:iconSpaceReserved="false" />
 
     <io.legado.app.lib.prefs.Preference

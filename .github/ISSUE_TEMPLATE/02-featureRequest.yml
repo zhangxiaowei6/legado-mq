@@ -9,7 +9,7 @@ body:
       options:
         - label: 搜索现有issues，不存在相似或相关的issue / No related requests
           required: true
-        - label: 最新[测试版](https://github.com/gedoor/legado/releases/beta)没有此功能 / Latest beta app does not this feature
+        - label: 最新[墨栖阅读正式版](https://github.com/zhangxiaowei6/legado-mq/releases/latest)没有此功能 / The latest Moqi Reader release does not include this feature
           required: true
 
   - type: textarea
@@ -21,13 +21,13 @@ body:
   - type: textarea
     attributes:
       label: 期望实现方式 / How to implement
-      placeholder: 阅读应该如何实现该功能
+      placeholder: 墨栖阅读可以如何实现该功能
     validations:
       required: true
   - type: input
     attributes:
-      label: 阅读版本 / Legado version
-      placeholder: "3.22.110823"
+      label: 墨栖阅读版本 / Moqi Reader version
+      placeholder: "1.0.0"
     validations:
       required: true
   - type: textarea
