@@ -85,7 +85,7 @@ jobs:
           echo "apk=${apk}" >> "${GITHUB_OUTPUT}"
 
       - name: Upload workflow artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: moqi-reader-${{ github.ref_name }}
           path: |
