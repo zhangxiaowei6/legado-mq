@@ -491,7 +491,7 @@
             android:name=".service.WebTileService"
             android:exported="true"
             android:foregroundServiceType="dataSync"
-            android:icon="@drawable/ic_web_service_noti"
+            android:icon="@drawable/ic_notification"
             android:label="Moqi Reader Web Service"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             tools:targetApi="24">

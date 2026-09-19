@@ -369,7 +369,7 @@ class VideoPlayService : BaseService() {
         val nTitle = getString(R.string.audio_play_t) + ": $VideoPlay.videoTitle"
         val nSubtitle = getString(R.string.audio_play_s)
         val builder = NotificationCompat.Builder(this@VideoPlayService, AppConst.channelIdReadAloud)
-            .setSmallIcon(R.drawable.ic_volume_up)
+            .setSmallIcon(R.drawable.ic_notification)
             .setSubText(getString(R.string.video))
             .setOngoing(true)
             .setOnlyAlertOnce(true)

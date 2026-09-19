@@ -134,7 +134,7 @@ class ExportBookService : BaseService() {
     @SuppressLint("MissingPermission")
     override fun startForegroundNotification() {
         val notification = NotificationCompat.Builder(this, AppConst.channelIdDownload)
-            .setSmallIcon(R.drawable.ic_export)
+            .setSmallIcon(R.drawable.ic_notification)
             .setSubText(getString(R.string.export_book))
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setGroup(groupKey)
@@ -144,7 +144,7 @@ class ExportBookService : BaseService() {
 
     private fun upExportNotification(finish: Boolean = false) {
         val notification = NotificationCompat.Builder(this, AppConst.channelIdDownload)
-            .setSmallIcon(R.drawable.ic_export)
+            .setSmallIcon(R.drawable.ic_notification)
             .setSubText(getString(R.string.export_book))
             .setContentIntent(activityPendingIntent<CacheActivity>("cacheActivity"))
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)

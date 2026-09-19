@@ -1,6 +1,6 @@
 {
   "name": "legado-mq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "cz-conventional-changelog": "^3.1.0"
   },

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--App-->
-    <string name="app_name">Moqi Reader</string>
-    <string name="app_name_debug" translatable="false">墨栖阅读·D</string>
+    <string name="app_name">阅读</string>
+    <string name="app_name_debug" translatable="false">阅读·D</string>
     <string name="app_name_a">Moqi Reader</string>
     <string name="app_name_s" translatable="false">Moqi Reader</string>
     <string name="receiving_shared_label">Moqi Reader · Search</string>
