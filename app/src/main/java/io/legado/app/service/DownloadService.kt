@@ -225,7 +225,7 @@ class DownloadService : BaseService() {
 
     override fun startForegroundNotification() {
         val notification = NotificationCompat.Builder(this, AppConst.channelIdDownload)
-            .setSmallIcon(R.drawable.ic_download)
+            .setSmallIcon(R.drawable.ic_notification)
             .setSubText(getString(R.string.action_download))
             .setGroup(groupKey)
             .setGroupSummary(true)
@@ -246,7 +246,7 @@ class DownloadService : BaseService() {
         startTime: Long
     ) {
         val notificationBuilder = NotificationCompat.Builder(this, AppConst.channelIdDownload)
-            .setSmallIcon(R.drawable.ic_download)
+            .setSmallIcon(R.drawable.ic_notification)
             .setSubText(getString(R.string.action_download))
             .setContentTitle(content)
             .setOnlyAlertOnce(true)

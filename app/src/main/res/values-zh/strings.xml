@@ -1,6 +1,6 @@
 <resources>
     <!--App-->
-    <string name="app_name">墨栖阅读</string>
+    <string name="app_name">阅读</string>
     <string name="app_name_a">墨栖阅读</string>
     <string name="app_name_s">墨栖阅读</string>
     <string name="receiving_shared_label">墨栖阅读·搜索</string>

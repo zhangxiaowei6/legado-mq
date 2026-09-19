@@ -64,7 +64,7 @@ class CheckSourceService : BaseService() {
 
     private val notificationBuilder by lazy {
         NotificationCompat.Builder(this, AppConst.channelIdReadAloud)
-            .setSmallIcon(R.drawable.ic_network_check)
+            .setSmallIcon(R.drawable.ic_notification)
             .setOngoing(true)
             .setOnlyAlertOnce(true)
             .setContentTitle(getString(R.string.check_book_source))

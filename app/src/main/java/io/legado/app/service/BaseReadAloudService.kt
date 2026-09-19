@@ -615,7 +615,7 @@ abstract class BaseReadAloudService : BaseService(),
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setForegroundServiceBehavior(NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE)
             .setCategory(NotificationCompat.CATEGORY_TRANSPORT)
-            .setSmallIcon(R.drawable.ic_volume_up)
+            .setSmallIcon(R.drawable.ic_notification)
             .setSubText(getString(R.string.read_aloud))
             .setOngoing(true)
             .setOnlyAlertOnce(true)
